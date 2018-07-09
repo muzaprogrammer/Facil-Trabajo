@@ -1,0 +1,288 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  color: #5D6975;
+  text-decoration: underline;
+}
+
+body {
+  position: relative;
+  width: 21cm;
+  height: 29.7cm;
+  margin: 0 auto;
+  color: #001028;
+  background: #FFFFFF;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-family: Arial;
+}
+
+header {
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+#logo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#logo img {
+  width: 90px;
+}
+
+h1 {
+  border-top: 1px solid  #5D6975;
+  border-bottom: 1px solid  #5D6975;
+  color: #5D6975;
+  font-size: 2.0em;
+  line-height: 1.4em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 0 20px 0;
+  background: url(http://localhost/Climosal/includes/img/dimension.png);
+}
+
+h2 {
+  border-top: 1px solid  #5D6975;
+  border-bottom: 1px solid  #5D6975;
+  color: #5D6975;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 0 20px 0;
+  background: url(http://localhost/Climosal/includes/img/dimension.png);
+}
+
+#project {
+  float: left;
+  width: 75%;
+}
+
+#encabezado_receta {
+  float: left;
+  width: 100%;
+}
+
+#encabezado_receta span{
+  color: #5D6975;
+  text-align: right;
+  width: 52px;
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 13px;
+}
+
+#project span {
+  color: #5D6975;
+  text-align: right;
+  width: 52px;
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 13px;
+}
+
+#contenido {
+  float: left;
+  width: 100%;
+}
+
+#contenido span {
+  color: #5D6975;
+  text-align: right;
+  width: 52px;
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 15px;
+}
+
+#company {
+  float: right;
+  text-align: right;
+  margin-top: 5px;
+  width: 25%;
+}
+
+#project div,
+#company div {
+  white-space: nowrap;
+
+}
+
+#tabla {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+#tabla tr:nth-child(2n-1) td {
+  background: #F5F5F5;
+}
+
+#tabla th,
+#tabla td {
+  text-align: center;
+}
+
+#tabla th {
+  padding: 5px 20px;
+  color: #5D6975;
+  border-bottom: 1px solid #C1CED9;
+  white-space: nowrap;
+  font-weight: normal;
+}
+
+#tabla .service,
+#tabla .desc {
+  text-align: left;
+}
+
+#tabla td {
+  padding: 20px;
+  text-align: right;
+}
+
+#tabla td.service,
+#tabla td.desc {
+  vertical-align: top;
+}
+#tabla
+#tabla td.unit,
+#tabla td.qty,
+#tabla td.total {
+  font-size: 1.2em;
+}
+
+#tabla td.grand {
+  border-top: 1px solid #5D6975;;
+}
+
+
+#tabla_antecedentes {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+#tabla_antecedentes tr:nth-child(2n-1) td {
+}
+
+#tabla_antecedentes th,
+#tabla_antecedentes td {
+  text-align: left;
+}
+
+#tabla_antecedentes th {
+  padding: 5px 20px;
+  color: #5D6975;
+  border-bottom: 1px solid #C1CED9;
+  white-space: nowrap;
+  font-weight: normal;
+}
+
+#tabla_antecedentes .service,
+#tabla_antecedentes .desc {
+  text-align: left;
+}
+
+#tabla_antecedentes td {
+  padding: 5px;
+  text-align: left;
+}
+
+#tabla_antecedentes td.service,
+#tabla_antecedentes td.desc {
+  vertical-align: top;
+}
+#tabla_antecedentes
+#tabla_antecedentes td.unit,
+#tabla_antecedentes td.qty,
+#tabla_antecedentes td.total {
+  font-size: 1.2em;
+}
+
+#tabla_antecedentes td.grand {
+  border-top: 1px solid #5D6975;;
+}
+
+#notices .notice {
+  color: #5D6975;
+  font-size: 1.2em;
+}
+
+footer {
+  color: #5D6975;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #C1CED9;
+  text-align: center;
+}
+
+#tabla_reportes {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+#tabla_reportes tr:nth-child(2n-1) td {
+}
+
+#tabla_antecedentes th,
+#tabla_reportes td {
+  text-align: left;
+}
+
+#tabla_reportes th {
+  padding: 5px 20px;
+  color: #5D6975;
+  border-bottom: 1px solid #C1CED9;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+#tabla_reportes .service,
+#tabla_reportes .desc {
+  text-align: left;
+}
+
+#tabla_reportes td {
+  padding: 5px;
+  text-align: left;
+}
+
+#tabla_reportes td.service,
+#tabla_reportes td.desc {
+  vertical-align: top;
+}
+#tabla_reportes
+#tabla_reportes td.unidad,
+#tabla_reportes td.cantidad {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+#tabla_reportes td.total {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  text-transform:uppercase;
+}
+
+#tabla_reportes td.grand {
+  border-top: 1px solid #5D6975;;
+}
+
+#notices .notice {
+  color: #5D6975;
+  font-size: 1.2em;
+}

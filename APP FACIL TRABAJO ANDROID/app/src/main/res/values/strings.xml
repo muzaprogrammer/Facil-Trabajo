@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Facil Trabajo</string>
+
+    <!-- STRING FOR SIGN IN / SIGN UP ACTIVITY -->
+    <string name="loginTitle">Bienvenido</string>
+    <string name="lblRecovery">¿Olvidaste tu contraseña?</string>
+    <string name="edtCorreo">Correo electronico</string>
+    <string name="edtPassword">Contraseña</string>
+    <string name="edtNombres">Nombres</string>
+    <string name="edtApellidos">Apellidos</string>
+    <string name="btnSignIn">Iniciar sesion</string>
+    <string name="btnSignUp">Registrarse</string>
+    <string name="btn_link_to_signin">¿Ya tienes cuenta? Click aqui.</string>
+    <string name="btn_link_to_signup">¿Aún no tienes cuenta? Click aqui.</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- MAIN FRAGMENTS STRINGS -->
+    <string-array name="spinner_departamentos">
+        <item>Ahuachapán</item>
+        <item>Cabañas</item>
+        <item>Chalatenango</item>
+        <item>Cuscatlán</item>
+        <item>Morazán</item>
+        <item>La Libertad</item>
+        <item>La Paz</item>
+        <item>La Unión</item>
+        <item>San Miguel</item>
+        <item>San Salvador</item>
+        <item>San Vicente</item>
+        <item>Santa Ana</item>
+        <item>Sonsonate</item>
+        <item>Usulután</item>
+    </string-array>
+    <!-- MAIN FRAGMENTS STRINGS -->
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_resultados">ResultadosActivity</string>
+    <string name="title_activity_detalles_oferta">DetallesOfertaActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <!-- STRING FOR SIGN IN ACTIVITY -->
+
+    <string name="copy_right" translatable="false" >Copyrights © %1$d</string>
+
+</resources>

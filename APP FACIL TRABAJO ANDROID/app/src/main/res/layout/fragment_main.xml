@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <EditText
+            android:id="@+id/edtCargoProfesion"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:hint="Escribe el cargo o área profesional"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@color/white" />
+
+        <!-- Login Button -->
+        <Spinner
+            android:id="@+id/spnDepartamentos"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btnBuscarEmpleo"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="40dip"
+            android:background="@color/colorAccent"
+            android:text="Buscar empleos"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_light"
+            android:textSize="15sp" />
+
+        <!-- Link to Login Screen -->
+    </LinearLayout>
+
+</LinearLayout>
